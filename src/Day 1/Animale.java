@@ -1,6 +1,9 @@
-abestract class Animale{
-   private Strign name;
-   private String color;
-    abestract void makeSound();
-
-}
+//abstract class Animale{
+//   private String name;
+//   private String color;
+//
+//     void makeSound() {
+//
+//     }
+//
+// }
