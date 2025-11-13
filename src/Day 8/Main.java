@@ -1,4 +1,4 @@
-class Main{
+class MainDay8{
     public static void main(String[] args){
 
 
