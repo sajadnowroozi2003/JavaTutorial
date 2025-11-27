@@ -20,13 +20,14 @@ public class Valutakalkulator {
     }
 
 
-    public double beregnkurs(String valuta){
-    for (int  i = 0 ; i < valutakurser.size() ; i++){
-        if(valutakurser.get(i).getValuta().equals(valuta)){
-            return valutakurser.get(i).getKurs();
+    public double beregnkurs(String valuta) {
+
+        for (Valuta v : valutakurser) {
+            if (v.getValuta().equals(valuta)) {
+                return v.getKurs();
+            }
         }
-    }
-        return 0;
+        return -1;
     }
 
 
